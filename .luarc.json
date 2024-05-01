@@ -1,0 +1,9 @@
+{
+    "diagnostics.globals": [
+        "vim",
+        "sources"
+    ],
+    "diagnostics.disable": [
+        "redundant-value"
+    ]
+}
