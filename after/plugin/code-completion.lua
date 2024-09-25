@@ -1,7 +1,7 @@
 local cmp = require 'cmp'
 cmp.setup({
   formatting = {
-    fields = { 'kind', 'abbr', 'menu' },
+    fields = { 'abbr', 'menu','kind' },
     format = function(entry, vim_item)
       vim_item.menu = ({
         nvim_lsp = "",
